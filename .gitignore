@@ -55,3 +55,7 @@ ST/u8g2/Core/Src/stm32f1xx_hal_msp.c
 ST/u8g2/Core/Src/stm32f1xx_it.c
 ST/u8g2/Core/Src/system_stm32f1xx.c
 ST/u8g2/Core/Src/startup_stm32f103xe.s
+#
+ST/c++test/examples
+ST/c++test/startup/Linker.ld
+ST/c++test/startup/Startup.asm
