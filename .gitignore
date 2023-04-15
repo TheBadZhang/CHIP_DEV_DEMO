@@ -119,5 +119,16 @@ ST/air32f103_gpio/USER/GPIO*
 **/day0-gpio/stm32f10x*
 !**/day0-gpio/stm32f10x.code-workspace
 **/day0-gpio/JLink*
+#
+**/day1-pwm/DebugConfig
+**/day1-pwm/lib
+**/day1-pwm/Listings
+**/day1-pwm/start
+**/day1-pwm/user/stm32f10x*
+**/day1-pwm/stm32f10x*
+**/day1-pwm/Objects
+!**/day1-pwm/stm32f10x.code-workspace
+**/day1-pwm/JLink*
+**/day1-pwm/EventRecorderStub.scvd
 
 
