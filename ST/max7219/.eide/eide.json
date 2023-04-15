@@ -1,0 +1,109 @@
+{
+  "name": "max7219",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "Core",
+    "Drivers",
+    "lib",
+    "src"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "00855f4c775b2575a704bae6da70531e"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "lib/max7219/max7219.cc",
+        "lib/codebase/algorithm",
+        "lib/codebase/inc",
+        "lib/codebase/elib/base",
+        "lib/codebase/elib/connect",
+        "lib/codebase/elib/delay",
+        "lib/codebase/elib/effect",
+        "lib/codebase/elib/math",
+        "lib/codebase/elib/random",
+        "lib/codebase/elib/res",
+        "lib/codebase/elib/string",
+        "lib/codebase/elib/device/dh11",
+        "lib/codebase/elib/device/ds1302",
+        "lib/codebase/elib/device/ds18b20",
+        "lib/codebase/elib/device/eeprom",
+        "lib/codebase/elib/device/hdc1080",
+        "lib/codebase/elib/device/hs0038",
+        "lib/codebase/elib/device/ht1621",
+        "lib/codebase/elib/device/max485",
+        "lib/codebase/elib/device/pcf8591",
+        "lib/codebase/elib/device/TFT_eSPI",
+        "lib/codebase/elib/device/tm1629",
+        "lib/codebase/elib/device/ttp229",
+        "lib/codebase/elib/device/ws2812",
+        "lib/codebase/elib/device/一些段码液晶屏",
+        "lib/codebase/elib/device/u8g2/ssd1306",
+        "lib/codebase/elib/device/u8g2/pcd8544",
+        "lib/codebase/elib/device/u8g2/max7219",
+        "lib/codebase/elib/device/u8g2/ist7920"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "STM32F401CCUx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f4x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps",
+          "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+          "Core/Inc",
+          "Drivers/STM32F4xx_HAL_Driver/Inc",
+          "Drivers/CMSIS/Include",
+          "src",
+          "lib/elib"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F401xC"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

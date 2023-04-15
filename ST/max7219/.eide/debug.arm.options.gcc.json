@@ -1,0 +1,39 @@
+{
+    "version": 4,
+    "beforeBuildTasks": [
+        {
+            "name": "复制驱动代码",
+            "disable": true,
+            "abortAfterFailed": false,
+            "stopBuildAfterFailed": true,
+            "command": "cp -r D:\\TBZ\\Documents\\codebase\\elib ./lib/elib"
+        },
+        {
+            "name": "new prebuild task",
+            "disable": true,
+            "abortAfterFailed": false,
+            "stopBuildAfterFailed": true,
+            "command": "cp -r D:\\TBZ\\Documents\\codebase\\inc ./lib/inc"
+        }
+    ],
+    "afterBuildTasks": [],
+    "global": {
+        "$float-abi-type": "softfp",
+        "output-debug-info": "enable"
+    },
+    "c/cpp-compiler": {
+        "language-c": "c11",
+        "language-cpp": "c++11",
+        "optimization": "level-debug",
+        "warnings": "all-warnings",
+        "one-elf-section-per-function": true,
+        "one-elf-section-per-data": true
+    },
+    "asm-compiler": {},
+    "linker": {
+        "output-format": "elf",
+        "remove-unused-input-sections": true,
+        "LD_FLAGS": "--specs=nosys.specs --specs=nano.specs",
+        "LIB_FLAGS": "-lm"
+    }
+}
