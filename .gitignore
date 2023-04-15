@@ -84,3 +84,6 @@ ST/c++test/examples
 __pycache__
 **/YXD12864+Bad Apple/lib
 **/YXD12864+Bad Apple/bad_apple.mp4
+#
+**/gps_oled/lib/device
+**/gps_oled/lib/sensor
