@@ -98,3 +98,6 @@ __pycache__
 #
 **/stm32g030f6p6_st7302_ink-like_screen/lib/device
 **/stm32g030f6p6_st7302_ink-like_screen/lib/sensor
+#
+**/stm32f401-oled_gray-pwm_gray/lib/device
+**/stm32f401-oled_gray-pwm_gray/lib/sensor
