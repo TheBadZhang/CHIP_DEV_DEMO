@@ -141,3 +141,4 @@ ST/air32f103_gpio/USER/GPIO*
 **/STC/**/*.uvopt
 **/STC/**/5.29
 
+**/STC/**/out
