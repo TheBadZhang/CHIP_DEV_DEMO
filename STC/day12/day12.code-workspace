@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "C_Cpp.default.intelliSenseMode": "gcc-x86",
+        "files.autoGuessEncoding": false,
+        "files.encoding": "gbk",
+        "C_Cpp.default.cppStandard": "c++11",
+        "C_Cpp.default.cStandard": "c99",
+        "EIDE.ARM.Option.AutoGenerateRTE_Components": false,
+        "C_Cpp.errorSquiggles": "Disabled",
+        "files.associations": {
+            ".eideignore": "ignore",
+            "myheader.h": "c",
+            "hdc1080.h": "c",
+            "i2c.h": "c",
+            "eeprom.h": "c",
+            "led7seg.h": "c",
+            "sms0801.h": "c"
+        }
+    }
+}

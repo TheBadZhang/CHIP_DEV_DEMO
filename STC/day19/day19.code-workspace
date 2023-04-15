@@ -1,0 +1,27 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "C_Cpp.default.intelliSenseMode": "gcc-x86",
+        "files.autoGuessEncoding": false,
+        "files.encoding": "gbk",
+        "C_Cpp.default.cppStandard": "c++11",
+        "C_Cpp.default.cStandard": "c99",
+        "EIDE.ARM.Option.AutoGenerateRTE_Components": false,
+        "C_Cpp.errorSquiggles": "Disabled",
+        "files.associations": {
+            ".eideignore": "ignore",
+            "myheader.h": "c",
+            "ssd1306.h": "c",
+            "random.h": "c",
+            "ttp229.h": "c",
+            "i2c.h": "c",
+            "font.h": "c",
+            "1wire.h": "c",
+            "spi.h": "c"
+        }
+    }
+}
