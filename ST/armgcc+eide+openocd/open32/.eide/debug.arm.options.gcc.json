@@ -1,0 +1,25 @@
+{
+    "version": 4,
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [],
+    "global": {
+        "$float-abi-type": "softfp",
+        "output-debug-info": "enable"
+    },
+    "c/cpp-compiler": {
+        "language-c": "c11",
+        "language-cpp": "gnu++17",
+        "optimization": "level-debug",
+        "warnings": "all-warnings",
+        "C_FLAGS": "-ffunction-sections -fdata-sections -Werror -Wno-implicit-fallthrough -fno-exceptions -pipe",
+        "CXX_FLAGS": "-ffunction-sections -fdata-sections -Wextra -pedantic-errors -fno-rtti -fno-threadsafe-statics"
+    },
+    "asm-compiler": {
+        "ASM_FLAGS": "-ffunction-sections -fdata-sections"
+    },
+    "linker": {
+        "output-format": "elf",
+        "LD_FLAGS": "--specs=nosys.specs --specs=nano.specs -Wl,--gc-sections -Wl,-wrap,__aeabi_unwind_cpp_pr0 -Wl,-wrap,__aeabi_unwind_cpp_pr1 -Wl,-wrap,__aeabi_unwind_cpp_pr2 -Wl,-wrap,atexit",
+        "LIB_FLAGS": "-lm -lstdc++ -lstm32plus-normal-f1hd-8000000e"
+    }
+}

@@ -11,10 +11,19 @@
 **/.mxproject
 **/startup_stm32f401xc.s
 **/startup_stm32f103xe.s
+**/startup_stm32f103x6.s
+**/startup_stm32f103xb.s
+**/startup_stm32f10x_md.s
 **/STM32F407VETx_FLASH.ld
 **/STM32F103ZETx_FLASH.ld
 **/STM32F401CCUx_FLASH.ld
+**/STM32F103C6Tx_FLASH.ld
+**/stm32f1x_64KB_flash.ld
+**/STM32F103C8Tx_FLASH.ld
 **/Makefile
+**/src/stm32f10x_conf.h
+**/src/stm32f10x_it.h
+**/src/stm32f10x_it.c
 # eide 的非必要工程文件
 **/build
 **/.eide/log
@@ -57,5 +66,15 @@ ST/u8g2/Core/Src/system_stm32f1xx.c
 ST/u8g2/Core/Src/startup_stm32f103xe.s
 #
 ST/c++test/examples
-ST/c++test/startup/Linker.ld
-ST/c++test/startup/Startup.asm
+#
+**/aaa/lib/cmsis
+**/aaa/hal
+**/hhhhhjhjjk/out
+**/open32/examples
+**/startup/Linker.ld
+**/startup/Startup.asm
+**/open322/lib/cmsis
+**/open322/hal
+**/open322/out
+**/open323/out
+**/open32/sdk
