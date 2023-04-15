@@ -41,3 +41,16 @@ ST/diansai3/1659185409.0627506
 ST/u8g2/MDK-ARM
 ST/u8g2/.cmsis
 ST/u8g2/STM32F103ZETx_FLASH.ld
+# ST/u8g2/Core/*
+!ST/u8g2/Core/
+ST/u8g2/Core/u8g2
+ST/u8g2/Core/Inc/gpio.h
+ST/u8g2/Core/Inc/i2c.h
+ST/u8g2/Core/Inc/stm32f1xx_hal_conf.h
+ST/u8g2/Core/Inc/stm32f1xx_it.h
+ST/u8g2/Core/Src/gpio.c
+ST/u8g2/Core/Src/i2c.c
+ST/u8g2/Core/Src/stm32f1xx_hal_msp.c
+ST/u8g2/Core/Src/stm32f1xx_it.c
+ST/u8g2/Core/Src/system_stm32f1xx.c
+ST/u8g2/Core/Src/startup_stm32f103xe.s
