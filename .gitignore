@@ -4,6 +4,8 @@
 # 暂时先加上了
 .clang-format
 # cubemx 的非必要工程文件
+**/MDK-ARM
+**/.cmsis
 **/Core
 **/Drivers
 **/.mxproject
@@ -41,10 +43,6 @@ ST/diansai3/1659185214.9833882
 ST/diansai3/1659185223.1659245
 ST/diansai3/1659185409.0627506
 # u8g2 中无用的文件
-ST/u8g2/MDK-ARM
-ST/u8g2/.cmsis
-ST/u8g2/STM32F103ZETx_FLASH.ld
-# ST/u8g2/Core/*
 !ST/u8g2/Core/
 ST/u8g2/Core/u8g2
 ST/u8g2/Core/Inc/gpio.h
