@@ -1,0 +1,2 @@
+# CHIP_DEV_DEMO
+CH552 CH347 DEMO，包含一系列芯片开发样例
