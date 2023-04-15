@@ -1,0 +1,285 @@
+{
+  "name": "stm32f10x",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "append",
+        "files": [
+          {
+            "path": "append/sys.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "library",
+        "files": [
+          {
+            "path": "lib/misc.c"
+          },
+          {
+            "path": "lib/misc.h"
+          },
+          {
+            "path": "lib/stm32f10x_adc.c"
+          },
+          {
+            "path": "lib/stm32f10x_adc.h"
+          },
+          {
+            "path": "lib/stm32f10x_bkp.c"
+          },
+          {
+            "path": "lib/stm32f10x_bkp.h"
+          },
+          {
+            "path": "lib/stm32f10x_can.c"
+          },
+          {
+            "path": "lib/stm32f10x_can.h"
+          },
+          {
+            "path": "lib/stm32f10x_cec.c"
+          },
+          {
+            "path": "lib/stm32f10x_cec.h"
+          },
+          {
+            "path": "lib/stm32f10x_crc.c"
+          },
+          {
+            "path": "lib/stm32f10x_crc.h"
+          },
+          {
+            "path": "lib/stm32f10x_dac.c"
+          },
+          {
+            "path": "lib/stm32f10x_dac.h"
+          },
+          {
+            "path": "lib/stm32f10x_dbgmcu.c"
+          },
+          {
+            "path": "lib/stm32f10x_dbgmcu.h"
+          },
+          {
+            "path": "lib/stm32f10x_dma.c"
+          },
+          {
+            "path": "lib/stm32f10x_dma.h"
+          },
+          {
+            "path": "lib/stm32f10x_exti.c"
+          },
+          {
+            "path": "lib/stm32f10x_exti.h"
+          },
+          {
+            "path": "lib/stm32f10x_flash.c"
+          },
+          {
+            "path": "lib/stm32f10x_flash.h"
+          },
+          {
+            "path": "lib/stm32f10x_fsmc.c"
+          },
+          {
+            "path": "lib/stm32f10x_fsmc.h"
+          },
+          {
+            "path": "lib/stm32f10x_gpio.c"
+          },
+          {
+            "path": "lib/stm32f10x_gpio.h"
+          },
+          {
+            "path": "lib/stm32f10x_i2c.c"
+          },
+          {
+            "path": "lib/stm32f10x_i2c.h"
+          },
+          {
+            "path": "lib/stm32f10x_iwdg.c"
+          },
+          {
+            "path": "lib/stm32f10x_iwdg.h"
+          },
+          {
+            "path": "lib/stm32f10x_pwr.c"
+          },
+          {
+            "path": "lib/stm32f10x_pwr.h"
+          },
+          {
+            "path": "lib/stm32f10x_rcc.c"
+          },
+          {
+            "path": "lib/stm32f10x_rcc.h"
+          },
+          {
+            "path": "lib/stm32f10x_rtc.c"
+          },
+          {
+            "path": "lib/stm32f10x_rtc.h"
+          },
+          {
+            "path": "lib/stm32f10x_sdio.c"
+          },
+          {
+            "path": "lib/stm32f10x_sdio.h"
+          },
+          {
+            "path": "lib/stm32f10x_spi.c"
+          },
+          {
+            "path": "lib/stm32f10x_spi.h"
+          },
+          {
+            "path": "lib/stm32f10x_tim.c"
+          },
+          {
+            "path": "lib/stm32f10x_tim.h"
+          },
+          {
+            "path": "lib/stm32f10x_usart.c"
+          },
+          {
+            "path": "lib/stm32f10x_usart.h"
+          },
+          {
+            "path": "lib/stm32f10x_wwdg.c"
+          },
+          {
+            "path": "lib/stm32f10x_wwdg.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "start",
+        "files": [
+          {
+            "path": "start/core_cm3.c"
+          },
+          {
+            "path": "start/core_cm3.h"
+          },
+          {
+            "path": "start/startup_stm32f10x_md.s"
+          },
+          {
+            "path": "start/stm32f10x.h"
+          },
+          {
+            "path": "start/system_stm32f10x.c"
+          },
+          {
+            "path": "start/system_stm32f10x.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "user",
+        "files": [
+          {
+            "path": "user/main.c"
+          },
+          {
+            "path": "user/stm32f10x_conf.h"
+          },
+          {
+            "path": "user/stm32f10x_it.c"
+          },
+          {
+            "path": "user/stm32f10x_it.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "ffd963b87b5fb435b892fda445076188"
+  },
+  "targets": {
+    "MAJOR": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "<YOUR_SCATTER_FILE>.sct",
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x5000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x08000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "start",
+          "user",
+          "lib",
+          "append",
+          ".cmsis/dsp_lib",
+          "RTE/_MAJOR",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_STDPERIPH_DRIVER"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

@@ -110,3 +110,14 @@ ST/air32f103_gpio/air32f103*
 ST/air32f103_gpio/EventRecorderStub.scvd
 ST/air32f103_gpio/USER/air32f10x*
 ST/air32f103_gpio/USER/GPIO*
+#
+**/day0-gpio/DebugConfig
+**/day0-gpio/lib
+**/day0-gpio/Listings
+**/day0-gpio/start
+**/day0-gpio/user/stm32f10x*
+**/day0-gpio/stm32f10x*
+!**/day0-gpio/stm32f10x.code-workspace
+**/day0-gpio/JLink*
+
+
