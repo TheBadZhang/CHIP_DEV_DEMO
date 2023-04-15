@@ -101,3 +101,12 @@ __pycache__
 #
 **/stm32f401-oled_gray-pwm_gray/lib/device
 **/stm32f401-oled_gray-pwm_gray/lib/sensor
+#
+ST/air32f103_gpio/Listings
+ST/air32f103_gpio/Objects
+ST/air32f103_gpio/RTE
+ST/air32f103_gpio/SYSTEM
+ST/air32f103_gpio/air32f103*
+ST/air32f103_gpio/EventRecorderStub.scvd
+ST/air32f103_gpio/USER/air32f10x*
+ST/air32f103_gpio/USER/GPIO*
