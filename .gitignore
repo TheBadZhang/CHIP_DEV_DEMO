@@ -1,6 +1,8 @@
 # vscode 配置文件（非必须
 **/.vscode
-
+# 倒是有点不是很想去掉这个文件，毕竟可以保持每个项目的代码风格统一
+# 暂时先加上了
+.clang-format
 # cubemx 的非必要工程文件
 **/Core
 **/Drivers
@@ -16,5 +18,5 @@
 **/.eide.usr.ctx.json
 # 项目原始打包文件
 **/*.zip
-**/lib/u8g2
+**/u8g2
 # 第三方库，就不添加了
