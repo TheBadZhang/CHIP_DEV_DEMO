@@ -87,3 +87,6 @@ __pycache__
 #
 **/gps_oled/lib/device
 **/gps_oled/lib/sensor
+#
+**/gm12864/lib/device
+**/gm12864/lib/sensor
