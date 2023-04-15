@@ -1,0 +1,29 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "C_Cpp.default.intelliSenseMode": "gcc-x86",
+        "files.autoGuessEncoding": false,
+        "files.encoding": "gbk",
+        "C_Cpp.default.cppStandard": "c++11",
+        "C_Cpp.default.cStandard": "c99",
+        "EIDE.ARM.Option.AutoGenerateRTE_Components": false,
+        "C_Cpp.errorSquiggles": "Disabled",
+        "files.associations": {
+            ".eideignore": "ignore",
+            "myheader.h": "c",
+            "led7seg.h": "c",
+            "buzz.h": "c",
+            "effect.h": "c",
+            "keyboard.h": "c",
+            "keyboard_vk.h": "c",
+            "REG52.H": "cpp",
+            "lcd1602.h": "c",
+            "led88.h": "c",
+            "iso646.h": "c"
+        }
+    }
+}
