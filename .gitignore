@@ -18,5 +18,8 @@
 **/.eide.usr.ctx.json
 # 项目原始打包文件
 **/*.zip
-**/u8g2
+**/lib/u8g2
+**/src/u8g2
+**/src/cppsrc
+**/src/csrc
 # 第三方库，就不添加了
