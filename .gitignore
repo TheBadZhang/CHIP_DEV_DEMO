@@ -80,3 +80,7 @@ ST/c++test/examples
 **/open32/sdk
 #
 **/tea5767/lib
+#
+__pycache__
+**/YXD12864+Bad Apple/lib
+**/YXD12864+Bad Apple/bad_apple.mp4
