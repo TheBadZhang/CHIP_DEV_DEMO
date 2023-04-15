@@ -131,4 +131,13 @@ ST/air32f103_gpio/USER/GPIO*
 **/day1-pwm/JLink*
 **/day1-pwm/EventRecorderStub.scvd
 
+#
+**/STC/**/*.bak
+**/STC/**/*.OBJ
+**/STC/**/*.LST
+**/STC/**/*.plg
+**/STC/**/*.M51
+**/STC/**/*.lnp
+**/STC/**/*.uvopt
+**/STC/**/5.29
 
