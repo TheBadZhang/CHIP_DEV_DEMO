@@ -8,6 +8,8 @@
 **/Drivers
 **/.mxproject
 **/startup_stm32f401xc.s
+**/startup_stm32f103xe.s
+**/STM32F103ZETx_FLASH.ld
 **/STM32F401CCUx_FLASH.ld
 **/Makefile
 # eide 的非必要工程文件
