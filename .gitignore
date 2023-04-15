@@ -90,3 +90,6 @@ __pycache__
 #
 **/gm12864/lib/device
 **/gm12864/lib/sensor
+#
+**/air32f103cbt6_led_u8g2/lib/device
+**/air32f103cbt6_led_u8g2/lib/sensor
