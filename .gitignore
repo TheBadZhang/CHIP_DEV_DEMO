@@ -1,4 +1,5 @@
-
+# vscode 配置文件（非必须
+**/.vscode
 
 # cubemx 的非必要工程文件
 **/Core
@@ -12,3 +13,8 @@
 **/.eide/log
 **/.eide/deps
 **/conf.cppcheck
+**/.eide.usr.ctx.json
+# 项目原始打包文件
+**/*.zip
+**/lib/u8g2
+# 第三方库，就不添加了
