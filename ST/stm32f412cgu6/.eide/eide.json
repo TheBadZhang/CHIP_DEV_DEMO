@@ -1,0 +1,106 @@
+{
+  "name": "stm32f412cgu6",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "codebase",
+    "Core",
+    "Drivers",
+    "src"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "b0725e083edf1fe735adc8f5f4ac23e3"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "codebase/air32f103 heart wave.c",
+        "codebase/src",
+        "codebase/algorithm",
+        "codebase/elib/effect",
+        "codebase/elib/string",
+        "codebase/elib/res",
+        "codebase/elib/device/ds1302",
+        "codebase/elib/device/eeprom",
+        "codebase/elib/device/gps",
+        "codebase/elib/device/hs0038",
+        "codebase/elib/device/ht1621",
+        "codebase/elib/device/max485",
+        "codebase/elib/device/pcf8591",
+        "codebase/elib/device/sensor",
+        "codebase/elib/device/TFT_eSPI",
+        "codebase/elib/device/tm1629",
+        "codebase/elib/device/ws2812",
+        "codebase/elib/device/一些段码液晶屏",
+        "codebase/elib/device/u8g2/ist7920",
+        "codebase/elib/device/u8g2/max7219",
+        "codebase/elib/device/u8g2/pcd8544",
+        "codebase/elib/device/u8g2/ssd1306",
+        "codebase/elib/device/u8g2/ssd1315",
+        "codebase/elib/connect",
+        "codebase/elib/math"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "STM32F412CGUx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f4x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "cortex_m",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/debug.pyocd.yaml"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F412Cx"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

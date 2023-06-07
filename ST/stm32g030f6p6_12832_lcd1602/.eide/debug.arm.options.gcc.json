@@ -1,0 +1,32 @@
+{
+    "version": 4,
+    "beforeBuildTasks": [
+        {
+            "name": "gen new frame",
+            "disable": false,
+            "abortAfterFailed": false,
+            "stopBuildAfterFailed": true,
+            "command": "lua \"${workspaceFolder}\\src\\gen_pic.lua\" > \"${workspaceFolder}\\src\\frame_data.dat\""
+        }
+    ],
+    "afterBuildTasks": [],
+    "global": {
+        "$float-abi-type": "softfp",
+        "output-debug-info": "enable"
+    },
+    "c/cpp-compiler": {
+        "language-c": "c11",
+        "language-cpp": "c++11",
+        "optimization": "level-debug",
+        "warnings": "all-warnings",
+        "one-elf-section-per-function": true,
+        "one-elf-section-per-data": true
+    },
+    "asm-compiler": {},
+    "linker": {
+        "output-format": "elf",
+        "remove-unused-input-sections": true,
+        "LD_FLAGS": "--specs=nosys.specs --specs=nano.specs",
+        "LIB_FLAGS": "-lm"
+    }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "lua_in_stm32f401",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "codebase",
+    "Core",
+    "Drivers",
+    "src"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "59d23c82543783a202068d1218f9787f"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "codebase/air32f103 heart wave.c",
+        "codebase/src",
+        "codebase/elib/connect",
+        "codebase/elib/device",
+        "codebase/elib/math",
+        "codebase/elib/random",
+        "codebase/elib/res",
+        "codebase/elib/string",
+        "codebase/algorithm",
+        "codebase/elib/effect"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "STM32F401CCUx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "pyOCD",
+      "uploadConfig": {
+        "bin": "",
+        "targetName": "stm32f412xe",
+        "baseAddr": "0x08000000",
+        "speed": "3M",
+        "config": ".eide/debug.pyocd.yaml"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f4x",
+          "interface": "cmsis-dap",
+          "baseAddr": "0x08000000"
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "stm32f412xe",
+          "baseAddr": "0x08000000",
+          "speed": "3M",
+          "config": ".eide/debug.pyocd.yaml"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F401xC"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

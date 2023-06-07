@@ -1,0 +1,108 @@
+{
+  "name": "stm32g030f6p6",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "Core",
+    "Drivers",
+    "src",
+    "codebase"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "90615615da8494448f09b0fd1513d142"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "lib/sensor",
+        "lib/device",
+        "codebase/air32f103 heart wave.c",
+        "codebase/algorithm",
+        "codebase/elib/device/ds1302",
+        "codebase/elib/device/eeprom",
+        "codebase/elib/device/gps",
+        "codebase/elib/device/hdc1080",
+        "codebase/elib/device/hs0038",
+        "codebase/elib/device/ht1621",
+        "codebase/elib/device/一些段码液晶屏",
+        "codebase/elib/device/ws2812",
+        "codebase/elib/device/tm1629",
+        "codebase/elib/device/TFT_eSPI",
+        "codebase/elib/device/sensor",
+        "codebase/elib/device/pcf8591",
+        "codebase/elib/device/max485",
+        "codebase/elib/device/u8g2/ssd1306",
+        "codebase/elib/device/u8g2/pcd8544",
+        "codebase/elib/device/u8g2/max7219",
+        "codebase/elib/device/u8g2/ist7920",
+        "codebase/src",
+        "src/sys.cpp",
+        "codebase/elib/string",
+        "codebase/elib/random",
+        "codebase/elib/effect",
+        "codebase/elib/math",
+        "codebase/elib/connect",
+        "codebase/elib/res/font/font.c",
+        "codebase/elib/res/font/fonts.c",
+        "codebase/elib/res/font/font_0507_ks0108.c",
+        "codebase/elib/res/font/font_0608.c",
+        "codebase/elib/res/font/font_0816.c",
+        "codebase/elib/res/font/font_large_font1.c"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M0+",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "STM32G030F6Px_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32g0x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32G030xx"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

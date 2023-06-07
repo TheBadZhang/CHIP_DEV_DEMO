@@ -1,0 +1,120 @@
+{
+  "name": "stm32g031f8p6",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "Core",
+    "Drivers",
+    "src",
+    "../../../codebase",
+    "LCD"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "80f95698842819e70f29dd6254bcbe33"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "lib/device",
+        "lib/gps",
+        "lib/sensor",
+        "lib/st7302",
+        "lib/u8g2",
+        "lib/ws2812",
+        "../../../codebase/air32f103 heart wave.c",
+        "../../../codebase/inc/mcu",
+        "../../../codebase/algorithm",
+        "../../../codebase/elib/string",
+        "../../../codebase/elib/math",
+        "../../../codebase/elib/delay",
+        "../../../codebase/lib/st7302",
+        "../../../codebase/lib/sensor",
+        "../../../codebase/lib/gps",
+        "../../../codebase/elib/device/tm1629",
+        "../../../codebase/elib/device/ttp229",
+        "../../../codebase/elib/device/u8g2",
+        "../../../codebase/elib/device/ws2812",
+        "../../../codebase/elib/device/一些段码液晶屏",
+        "../../../codebase/elib/device/pcf8591",
+        "../../../codebase/elib/device/max485",
+        "../../../codebase/elib/device/ht1621",
+        "../../../codebase/elib/device/hs0038",
+        "../../../codebase/elib/device/hdc1080",
+        "../../../codebase/elib/device/eeprom",
+        "../../../codebase/elib/device/ds18b20",
+        "../../../codebase/elib/device/ds1302",
+        "../../../codebase/elib/device/dh11",
+        "../../../codebase/inc/device",
+        "../../../codebase/lib/device",
+        "../../../codebase/lib",
+        "../../../codebase/elib/device/TFT_eSPI/st7789",
+        "../../../codebase/elib/device/TFT_eSPI/st7735/test.cc",
+        "../../../codebase/elib/res",
+        "../../../codebase/elib/device",
+        "../../../codebase/elib/connect/1wire",
+        "../../../codebase/elib/connect/gpio",
+        "../../../codebase/elib/connect/i2c",
+        "../../../codebase/elib/connect/modbus",
+        "../../../codebase/elib/connect/uart",
+        "../../../codebase/elib/connect",
+        "../../../codebase/src",
+        "src/spi.c"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M0+",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "STM32G031F8Px_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32g0x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32G031xx",
+          "USE_FULL_LL_DRIVER"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
