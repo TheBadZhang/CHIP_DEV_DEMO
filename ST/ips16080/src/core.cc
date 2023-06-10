@@ -11,6 +11,7 @@ void loop();
 void core(void) {
 
 	HAL_Delay(100);
+	set(SS2);
 	ST7735_Init();
 	ST7735_InvertColors(false);
 	HAL_Delay(100);

@@ -30,8 +30,8 @@
 **/build
 **/.eide/log
 **/.eide/deps
-**/conf.cppcheck
 **/.eide.usr.ctx.json
+**/conf.cppcheck
 # 项目原始打包文件
 **/*.zip
 **/lib/u8g2
@@ -143,3 +143,8 @@ ST/air32f103_gpio/USER/GPIO*
 
 **/STC/**/out
 **/CH552/**/out
+
+EWARM
+mklinkf.bat
+debug**
+*.ld
