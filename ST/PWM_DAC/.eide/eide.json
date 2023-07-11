@@ -1,0 +1,103 @@
+{
+  "name": "PWM_DAC",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "codebase",
+    "Core",
+    "Drivers",
+    "src"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "0c377a7ffd2b874d10945c2134cf16b8"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "codebase/algorithm",
+        "codebase/elib/connect",
+        "codebase/elib/random",
+        "codebase/elib/res",
+        "codebase/elib/string",
+        "codebase/elib/device/ds1302",
+        "codebase/elib/device/eeprom",
+        "codebase/elib/device/gps",
+        "codebase/elib/device/hs0038",
+        "codebase/elib/device/ht1621",
+        "codebase/elib/device/max485",
+        "codebase/elib/device/pcf8591",
+        "codebase/elib/device/sensor",
+        "codebase/elib/device/TFT_eSPI",
+        "codebase/elib/device/tm1629",
+        "codebase/elib/device/ws2812",
+        "codebase/elib/device/一些段码液晶屏",
+        "codebase/air32f103 heart wave.c",
+        "codebase/elib/math",
+        "codebase/src/core.cc",
+        "codebase/src/sys.cpp",
+        "codebase/src",
+        "codebase/lib/lua",
+        "codebase/lib/tinyexpr",
+        "codebase/elib/device/u8g2/ist7920",
+        "codebase/elib/device/u8g2/max7219",
+        "codebase/elib/device/u8g2/pcd8544",
+        "codebase/elib/device/u8g2/ssd1306",
+        "codebase/elib/device/u8g2/ssd1315"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "STM32F103CBTx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f1x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F103xB"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
