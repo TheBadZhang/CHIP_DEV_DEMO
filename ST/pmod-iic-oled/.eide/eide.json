@@ -1,0 +1,85 @@
+{
+  "name": "pmod-iic-oled",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "codebase",
+    "Core",
+    "Drivers",
+    "src"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "0236f8cf1e08c0e5d26ced961341bef5"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "codebase/air32f103 heart wave.c",
+        "codebase/elib/device/一些段码液晶屏/mled",
+        "codebase/elib/device/TFT_eSPI",
+        "codebase/elib/device/u8g2/oled.cpp",
+        "codebase/elib/device",
+        "codebase/elib/connect",
+        "codebase/elib/res/font/font_large_font1.c",
+        "codebase/src",
+        "codebase/algorithm",
+        "codebase/elib/math",
+        "codebase/elib/effect"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "STM32F103CBTx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f1x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F103xB"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
