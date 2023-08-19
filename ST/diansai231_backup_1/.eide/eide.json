@@ -1,0 +1,229 @@
+{
+  "name": "diansai231",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps",
+    "codebase",
+    "Core",
+    "Drivers",
+    "src",
+    "Middlewares"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "ba6558832e98b2b758704a452aef1e39"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "codebase/elib/connect",
+        "codebase/elib/math",
+        "codebase/elib/random",
+        "codebase/elib/res",
+        "codebase/elib/string",
+        "codebase/elib/effect",
+        "codebase/algorithm",
+        "codebase/air32f103 heart wave.c",
+        "codebase/src",
+        "Middlewares/ST/ARM/DSP/Lib/ARM",
+        "Middlewares/ST/ARM/DSP/Lib/GCC",
+        "Middlewares/ST/ARM/DSP/Lib/IAR",
+        "Middlewares/ST/ARM/DSP/Source/TransformFunctions",
+        "Middlewares/ST/ARM/DSP/Source/SupportFunctions",
+        "Middlewares/ST/ARM/DSP/Source/StatisticsFunctions",
+        "Middlewares/ST/ARM/DSP/Source/MatrixFunctions",
+        "Middlewares/ST/ARM/DSP/Source/FilteringFunctions",
+        "Middlewares/ST/ARM/DSP/Source/FastMathFunctions",
+        "Middlewares/ST/ARM/DSP/Source/ControllerFunctions",
+        "Middlewares/ST/ARM/DSP/Source/ComplexMathFunctions",
+        "Middlewares/ST/ARM/DSP/Source/CommonTables",
+        "Middlewares/ST/ARM/DSP/Source",
+        "codebase/elib/device/ds1302",
+        "codebase/elib/device/eeprom",
+        "codebase/elib/device/gps",
+        "codebase/elib/device/hs0038",
+        "codebase/elib/device/ht1621",
+        "codebase/elib/device/max485",
+        "codebase/elib/device/pcf8591",
+        "codebase/elib/device/sensor",
+        "codebase/elib/device/TFT_eSPI",
+        "codebase/elib/device/tm1629",
+        "codebase/elib/device/u8g2",
+        "codebase/elib/device/ws2812",
+        "codebase/elib/device/一些段码液晶屏",
+        "codebase/elib/device/ad9833"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "STM32G473CBTx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32g4x",
+        "interface": "cmsis-dap-v1",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32g4x",
+          "interface": "cmsis-dap-v1",
+          "baseAddr": "0x08000000"
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "cortex_m",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/debug.pyocd.yaml"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps"
+        ],
+        "libList": [
+          "Middlewares/ST/ARM/DSP/Lib"
+        ],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32G473xx",
+          "ARM_MATH_CM4",
+          "__TARGET_FPU_VFP",
+          "ARM_MATH_MATRIX_CHECK",
+          "ARM_MATH_ROUNDING"
+        ]
+      }
+    },
+    "Release": {
+      "excludeList": [
+        "codebase/elib/connect",
+        "codebase/elib/math",
+        "codebase/elib/random",
+        "codebase/elib/res",
+        "codebase/elib/string",
+        "codebase/elib/effect",
+        "codebase/algorithm",
+        "codebase/air32f103 heart wave.c",
+        "codebase/src",
+        "Middlewares/ST/ARM/DSP/Lib/ARM",
+        "Middlewares/ST/ARM/DSP/Lib/GCC",
+        "Middlewares/ST/ARM/DSP/Lib/IAR",
+        "Middlewares/ST/ARM/DSP/Source/TransformFunctions",
+        "Middlewares/ST/ARM/DSP/Source/SupportFunctions",
+        "Middlewares/ST/ARM/DSP/Source/StatisticsFunctions",
+        "Middlewares/ST/ARM/DSP/Source/MatrixFunctions",
+        "Middlewares/ST/ARM/DSP/Source/FilteringFunctions",
+        "Middlewares/ST/ARM/DSP/Source/FastMathFunctions",
+        "Middlewares/ST/ARM/DSP/Source/ControllerFunctions",
+        "Middlewares/ST/ARM/DSP/Source/ComplexMathFunctions",
+        "Middlewares/ST/ARM/DSP/Source/CommonTables",
+        "Middlewares/ST/ARM/DSP/Source",
+        "codebase/elib/device/ds1302",
+        "codebase/elib/device/eeprom",
+        "codebase/elib/device/gps",
+        "codebase/elib/device/hs0038",
+        "codebase/elib/device/ht1621",
+        "codebase/elib/device/max485",
+        "codebase/elib/device/pcf8591",
+        "codebase/elib/device/sensor",
+        "codebase/elib/device/TFT_eSPI",
+        "codebase/elib/device/tm1629",
+        "codebase/elib/device/u8g2",
+        "codebase/elib/device/ws2812",
+        "codebase/elib/device/一些段码液晶屏"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "STM32G473CBTx_FLASH.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32g4x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32g4x",
+          "interface": "cmsis-dap-v1",
+          "baseAddr": "0x08000000"
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "cortex_m",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/release.pyocd.yaml"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".eide/deps"
+        ],
+        "libList": [
+          "Middlewares/ST/ARM/DSP/Lib"
+        ],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32G473xx",
+          "ARM_MATH_CM4"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

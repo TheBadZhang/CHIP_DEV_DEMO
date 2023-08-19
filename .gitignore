@@ -5,6 +5,7 @@
 .clang-format
 # cubemx 的非必要工程文件
 **/MDK-ARM
+**/Middlewares
 **/.cmsis
 **/Core
 **/Drivers
@@ -15,6 +16,7 @@
 **/startup_stm32f103xb.s
 **/startup_stm32g030xx.s
 **/startup_stm32f10x_md.s
+**/startup_stm32g473xx.s
 **/STM32F407VETx_FLASH.ld
 **/STM32F103ZETx_FLASH.ld
 **/STM32F401CCUx_FLASH.ld
