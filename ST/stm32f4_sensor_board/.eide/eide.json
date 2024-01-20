@@ -5,10 +5,10 @@
   "srcDirs": [
     ".eide/deps",
     "codebase",
+    "src",
     "Core",
     "Drivers",
-    "Middlewares",
-    "src"
+    "Middlewares"
   ],
   "virtualFolder": {
     "name": "<virtual_root>",
@@ -45,12 +45,13 @@
         },
         "options": "null"
       },
-      "uploader": "OpenOCD",
+      "uploader": "pyOCD",
       "uploadConfig": {
         "bin": "",
-        "target": "stm32f4x",
-        "interface": "cmsis-dap",
-        "baseAddr": "0x08000000"
+        "targetName": "cortex_m",
+        "baseAddr": "0x08000000",
+        "speed": "4M",
+        "config": ".eide/debug.pyocd.yaml"
       },
       "uploadConfigMap": {
         "JLink": {
@@ -63,6 +64,12 @@
           "proType": 1,
           "speed": 8000,
           "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f4x",
+          "interface": "cmsis-dap",
+          "baseAddr": "0x08000000"
         }
       },
       "custom_dep": {

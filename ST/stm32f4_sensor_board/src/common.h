@@ -1,8 +1,8 @@
 #ifndef __TBZ_COMMON_H__
 #define __TBZ_COMMON_H__
 #include "main.h"
-#include "sys.h"
 #include "trick.h"
+#include "sys.h"
 // #include "mpu6050.h"
 #include <cstdint>
 #include <cstdio>
