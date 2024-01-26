@@ -1,1 +1,0 @@
-mklink /j codebase "D:/DOC/codebase"
